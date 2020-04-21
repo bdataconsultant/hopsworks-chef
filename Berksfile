@@ -23,8 +23,13 @@ cookbook 'glassfish', github: "logicalclocks/chef-glassfish", branch: "1.0"
 cookbook 'hops_airflow', github: "logicalclocks/airflow-chef", branch: "1.0"
 cookbook 'hive2', github: "logicalclocks/hive-chef", branch: "1.0"
 
+<<<<<<< HEAD
 cookbook 'ulimit', github: "logicalclocks/chef-ulimit", branch: "1.0"
 cookbook 'java'
+=======
+cookbook 'ulimit', github: "giabbo79/chef-ulimit", branch: "1.0"
+cookbook 'java', '= 7.0.0'
+>>>>>>> 09c464e... update java cookbook
 
 cookbook 'graphite', '~> 1.0.4'
 cookbook 'simple-logstash', '~> 0.2.4'
